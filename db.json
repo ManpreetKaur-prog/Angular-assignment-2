@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "id": 2,
+      "title": "Blog-2",
+      "desc": "Description of Blog-2",
+      "read": true
+    },
+    {
+      "id": 3,
+      "title": "Blog-3",
+      "desc": "Description of Blog-3",
+      "read": true
+    },
+    {
+      "id": 4,
+      "title": "Blog-4",
+      "desc": "Description of Blog-4",
+      "read": true
+    },
+    {
+      "id": 5,
+      "title": "Blog-5",
+      "desc": "Description of Blog-5",
+      "read": true
+    },
+    {
+      "title": "Blog-7",
+      "desc": "edjmfnsdfklmkmszdklvms",
+      "read": false,
+      "id": 6
+    },
+    {
+      "title": "1",
+      "desc": "2",
+      "read": false,
+      "id": 7
+    }
+  ]
+}

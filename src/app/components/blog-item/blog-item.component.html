@@ -1,0 +1,20 @@
+
+
+<div [ngClass]="{reminder: blog.read}"  
+class="blog"
+ (dblclick)="markItAsRead(blog)">
+    <fa-icon (click)="onDelete(blog)" [ngStyle]="{'color': 'red'}" [icon]=faTimes ></fa-icon>
+
+<p-card header="{{blog.title}}" subheader="Genre" [style]="{ width: '360px' }">
+    <ng-template pTemplate="header">
+        <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+    </ng-template>
+    <p>
+        {{blog.desc}}
+    </p>
+    <!-- <ng-template pTemplate="footer">
+        <p-button label="Save" icon="pi pi-check"></p-button>
+        <p-button label="Cancel" icon="pi pi-times" styleClass="p-button-secondary" [style]="{ 'margin-left': '.5em' }"></p-button>
+    </ng-template> -->
+</p-card>
+</div>

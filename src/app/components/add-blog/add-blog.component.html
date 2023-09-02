@@ -1,0 +1,23 @@
+<form class="add-form" (ngSubmit)="onSubmit()" *ngIf="displayForm">
+    <div class="form-control">
+        <label for="text">
+                Blog
+        </label>
+        <input type="text" name="text" id="title" [(ngModel)]="title" placeholder="Add Title">
+    </div>
+    <div class="form-control">
+        <label for="day">
+                Description
+        </label>
+        <input type="text" name="day" id="desc" [(ngModel)]="desc" placeholder="Add Description">
+    </div>
+    <div class="form-control form-control-check">
+        <label for="reminder">
+                Read?
+        </label>
+        <input type="checkbox" name="read" [(ngModel)]="read" id="resolved">
+    </div>
+             <p-button label="Submit" icon="pi pi-check" type="submit" value="submit" class="btn btn-block"></p-button>
+        <!-- <input type="submit" value="Submit" class="btn btn-block" > -->
+    
+</form>

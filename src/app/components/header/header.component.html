@@ -1,0 +1,9 @@
+<header>
+    <h1> {{ title }}</h1>
+    <app-button 
+     color="{{!displayForm? 'green': 'red'}}"
+     text="{{!displayForm? 'Add': 'Close'}}"
+     (btnClick)="addBlog()"></app-button>
+</header>
+<!-- <button mat-raised-button color="accent">Primary</button>
+<mat-slide-toggle color="primary">Toggle me!</mat-slide-toggle> -->

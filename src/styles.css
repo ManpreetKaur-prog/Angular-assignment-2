@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+*/* Reset box-sizing and set default margin and padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Use Bootstrap for body font family */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Button block styling */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Blog item styling */
+.blog {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Read blog item styling */
+.blog.read {
+  border-left: 5px solid green;
+}
+
+/* Blog title styling */
+.blog h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add form styling */
+.add-form {
+  margin-bottom: 40px;
+}
+
+/* Form control styling */
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px
+}
